@@ -1,0 +1,23 @@
+body {
+  background-color: SlateGray;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Dancing Script', cursive;
+}
+
+h1, h2, h3, h4, h5, p {
+  color: white;
+}
+
+.font-black {
+  color: slategray;
+}
+
+#title {
+font-size: 5em;
+}
+
+#main-img {
+  padding-top: 5em;
+}
