@@ -50,22 +50,11 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "j", "k", "l", "m
    document.getElementById("wins").innerHTML = wins;
 
    document.getElementById("losses").innerHTML = losses;
-       // var html = "<h1>The Psychic Game</h1>" +
-       // "<h2>Guess what letter I'm thinking of!</h2>" +
-       // "<h3>Total Wins: " +
-       // wins +
-       // "</h3>" +
-       // "<h3>Total Losses: " +
-       // losses +
-       // "</h3>" +
-       // "<h3>Guesses Left: " +
-       // chances +
-       // "</h3>" +
-       // "<h3>Your Guesses so far: " +
-       // usedLetters +
-       // "</h3>"
-       // ;
+   };
 
-       // Placing the html into the game ID
-       // document.querySelector("#game").innerHTML = html;
+// restart button will reset game
+   document.getElementById("restartBtn").addEventListener("click", refresh);
+
+   function refresh() {
+     location.reload();
    };
